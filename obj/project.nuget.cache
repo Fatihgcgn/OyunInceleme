@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6i5bHgD66eFNlBC4trQJEt0MKwjTWYNN28dJuoAB4BGfSEiOVd8ZMeTkE/tReB5a+E8C09Hsmn3nq3e8ovGhzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fatih\\source\\repos\\OyunInceleme\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fatih\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

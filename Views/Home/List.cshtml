@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebApplication1.Models.Oyunlar>
+
+@{
+    ViewData["Title"] = "Oyun Listesi";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Bu sitede oyunlarımızın incelemelerini görebilirsiniz.</p>
+<tbody>
+    <h3 class="text-center">Oyunların Listesi</h3>
+    <hr>
+     @foreach (var oyun in Model)
+    {
+        <center class="container">
+            <div class="">
+                <div class="card">
+                    <a class="none-underline" asp-action="@oyun.Url">
+                    <div class="card-body">              
+                        <img class="card-image" src="@oyun.Image">
+                        <div class="card-name">
+                            Numara: @oyun.Numara <br />
+                            Oyun ismi: @oyun.OyunAd <br />
+                            Kategori: @oyun.OyunKategori <br />
+                        </div>   
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </center>
+    } 
+
+</tbody>

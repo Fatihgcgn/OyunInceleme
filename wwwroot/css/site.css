@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 300px;
+  
+}
+.card {
+  border-radius: 20px;
+  display: flex ;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+margin: 10px;
+
+}
+
+.card-name {
+  gap: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+  background-color: none;
+  
+}
+  a { text-decoration: none; 
+  color: black;
+  }
+  a:hover { 
+    color: rgb(139, 20, 20);
+    }
+.container {
+  width: 100%;
+  gap: 10px;
+  display: grid;
+}
+.card-image {
+  width: 400px;
+  height: 400px;
+}
+
